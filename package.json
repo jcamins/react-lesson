@@ -4,8 +4,11 @@
   "version": "1.0.0",
   "author": "Jared Camins-Esakov <jared.camins-esakov@zocdoc.com>",
   "dependencies": {
+    "apollo-client": "^1.4.1",
     "gatsby": "^0.12.45",
+    "graphql-tag": "^2.2.2",
     "object-assign": "^4.1.1",
+    "react-apollo": "^1.4.2",
     "react-helmet": "^5.0.3",
     "react-typography": "^0.15.0",
     "typography": "^0.15.8",

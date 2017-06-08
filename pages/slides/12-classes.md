@@ -15,6 +15,10 @@ class MyClass {
 
     myInstanceMethod() {
     }
+
+    render() {
+        // React lifecycle method
+    }
 }
 ```
 

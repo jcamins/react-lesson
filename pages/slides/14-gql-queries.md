@@ -1,4 +1,0 @@
----
-title: "Assignment: GraphQL queries"
----
-

@@ -24,7 +24,10 @@ export default class SlidesIndex extends React.Component {
           <p><Link to={prefixLink('/slides/11-assignment-mechanics/')}>Assignment mechanics: Gatsby</Link></p>
           <p><Link to={prefixLink('/slides/12-classes/')}>Assignment: Classes</Link></p>
           <p><Link to={prefixLink('/slides/13-jsx/')}>Assignment: JSX</Link></p>
-          <p><Link to={prefixLink('/slides/14-gql-queries/')}>Assignment: GQL queries</Link></p>
+          <p><Link to={prefixLink('/slides/14-hoc/')}>Assignment: Higher order components</Link></p>
+          <p><Link to={prefixLink('/slides/15-gql-queries/')}>Assignment: GQL queries</Link></p>
+          <p><Link to={prefixLink('/slides/16-learnings/')}>Assignment: Learnings</Link></p>
+          <p><Link to={prefixLink('/slides/17-next-steps/')}>Next steps</Link></p>
         </div>
       </div>
     )
