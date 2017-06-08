@@ -7,13 +7,18 @@ import { config } from 'config'
 export default class Index extends React.Component {
   render() {
     return (
-      <div>
+      <div className="indented">
         <h1>
-          Hi people
+          Interactively learn React
         </h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
-        <Link to={prefixLink('/page-2/')}>Go to page 2</Link>
+        <h2>
+          Prepared by Jared Camins-Esakov
+        </h2>
+        <ul>
+          <li><Link to={prefixLink('/slides/')}>Slides</Link></li>
+          <li><Link to={prefixLink('/assignments/')}>Assignments</Link></li>
+          <li><Link to={prefixLink('/notes/')}>Notes</Link></li>
+        </ul>
       </div>
     )
   }

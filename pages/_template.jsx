@@ -6,6 +6,8 @@ import Helmet from 'react-helmet'
 import { config } from 'config'
 import { rhythm } from '../utils/typography'
 
+import 'css/main.css';
+
 export default class Template extends React.Component {
   static propTypes = {
     children: PropTypes.any
@@ -17,46 +19,10 @@ export default class Template extends React.Component {
         <Helmet
           title={config.siteTitle}
           meta={[
-            { name: "description", content: "Sample" },
-            { name: "keywords", content: "sample, something" },
+            { name: "description", content: "Learn React" },
           ]}
         />
-        <div
-          style={{
-            background: `rebeccapurple`,
-            marginBottom: rhythm(1),
-          }}
-        >
-          <div
-            style={{
-              margin: `0 auto`,
-              maxWidth: 960,
-              padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
-            }}
-          >
-            <h1 style={{ margin: 0 }}>
-              <Link
-                to={prefixLink("/")}
-                style={{
-                  color: "white",
-                  textDecoration: "none",
-                }}
-              >
-                Gatsby
-              </Link>
-            </h1>
-          </div>
-        </div>
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
-            paddingTop: 0,
-          }}
-        >
-          {this.props.children}
-        </div>
+        {this.props.children}
       </div>
     )
   }
